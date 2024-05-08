@@ -1,27 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "daisyui/dist/full.css";
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --white: #fff;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --gray-100: #afafaf;
+  --gray-200: #525252;
+  --gray-700: #15171b;
+  --gray-900: #111113;
+
+  --purple-100: #c5aee3;
+  --purple-200: #ac86da;
+  --purple-600: #5000c0;
+  --purple-700: #4200a2;
+  --purple-900: #1e0057;
+
+  --yellow-500: #ffbe16;
+  --blue-900: #1fa4e5;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--gray-700) !important;
+  color: var(--gray-100);
 }

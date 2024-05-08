@@ -1,0 +1,14 @@
+.react-calendar {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1 px solid #ccc;
+  border-radius: 4px;
+}
+
+.react-calendar .react-calendar__tile {
+  padding: 0.5em;
+  border: none;
+}
+.react-calendar .react-calendar__tile--now {
+  background-color: #007bff;
+}
